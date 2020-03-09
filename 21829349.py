@@ -21,9 +21,9 @@ def A():
     while True:
         frag = str(input('¿Qué fragmento quiere? ¿A1? ¿A2? ¿A3? o Salir ')) 
         if frag=='A1' or frag=='a1':
-            print ("La complejidad del fragmento A1 es: "'\n')
+            print ("La complejidad del fragmento A1 es O(n^3) "'\n')
         elif frag=='A2' or frag=='a2':
-            print ("La complejidad del fragmento A2 es: "'\n')
+            print ("La complejidad del fragmento A2 es O(n^4) "'\n')
         elif frag=='A3' or frag=='a3':
             print ("La complejidad del fragmento A3 es: O(n)"'\n')
         else:
